@@ -1,0 +1,23 @@
+{
+  "name": "amortize-api",
+  "version": "1.0.0",
+  "description": "api for the amortize app",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vs-js/amortize-api.git"
+  },
+  "author": "Varun Singh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vs-js/amortize-api/issues"
+  },
+  "homepage": "https://github.com/vs-js/amortize-api#readme",
+  "dependencies": {
+    "dotenv": "^17.2.1",
+    "express": "^5.1.0"
+  }
+}
