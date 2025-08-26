@@ -14,9 +14,7 @@ app.get('/', (req, res) => {
 
 
 app.post('/v1/submit/', (req, res) => {
-    console.log("received a POST request to /v1/submit" + req.params.ingredient);
-
-
+    console.log("received a POST request to /v1/submit");
 })
 
 app.listen(PORT, () => {
